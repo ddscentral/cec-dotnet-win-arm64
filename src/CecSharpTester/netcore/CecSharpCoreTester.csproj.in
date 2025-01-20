@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <StartupObject>CecSharpClient.CecSharpClient</StartupObject>
-    <Platforms>x86;x64;ARM64</Platforms>
+    <Platforms>x86;x64</Platforms>
     <Version>${LIBCEC_VERSION_MAJOR}.${LIBCEC_VERSION_MINOR}.${LIBCEC_VERSION_PATCH}.0</Version>
     <Copyright>Copyright (c) Pulse-Eight Limited 2011-2020</Copyright>
     <Company>Pulse-Eight Limited</Company>
@@ -32,16 +32,6 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
     <PlatformTarget>x86</PlatformTarget>
     <OutputPath>..\..\..\build\x86\</OutputPath>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
-    <PlatformTarget>ARM64</PlatformTarget>
-    <OutputPath>..\..\..\build\arm64\</OutputPath>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
-    <PlatformTarget>ARM64</PlatformTarget>
-    <OutputPath>..\..\..\build\arm64\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
