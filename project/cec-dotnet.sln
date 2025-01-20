@@ -7,42 +7,54 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CecSharpTester", "..\src\CecSharpTester\netfx\CecSharpTester.csproj", "{B6A7F3A9-F47C-41E5-9754-0BFF233B1172}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CecSharpCoreTester", "..\src\CecSharpTester\netcore\CecSharpCoreTester.csproj", "{8513978A-4599-4E55-857A-199F7C533186}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CecSharpCoreTester", "..\src\CecSharpTester\netcore\CecSharpCoreTester.csproj", "{8513978A-4599-4E55-857A-199F7C533186}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCECTray", "..\src\LibCecTray\LibCECTray.csproj", "{58C106FE-C159-46D3-97E1-73AB83232670}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|arm64 = Debug|arm64
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|arm64 = Release|arm64
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6A7F3A9-F47C-41E5-9754-0BFF233B1172}.Debug|arm64.ActiveCfg = Debug|arm64
+		{B6A7F3A9-F47C-41E5-9754-0BFF233B1172}.Debug|arm64.Build.0 = Debug|arm64
 		{B6A7F3A9-F47C-41E5-9754-0BFF233B1172}.Debug|x64.ActiveCfg = Debug|x64
 		{B6A7F3A9-F47C-41E5-9754-0BFF233B1172}.Debug|x64.Build.0 = Debug|x64
 		{B6A7F3A9-F47C-41E5-9754-0BFF233B1172}.Debug|x86.ActiveCfg = Debug|x86
 		{B6A7F3A9-F47C-41E5-9754-0BFF233B1172}.Debug|x86.Build.0 = Debug|x86
+		{B6A7F3A9-F47C-41E5-9754-0BFF233B1172}.Release|arm64.ActiveCfg = Release|arm64
+		{B6A7F3A9-F47C-41E5-9754-0BFF233B1172}.Release|arm64.Build.0 = Release|arm64
 		{B6A7F3A9-F47C-41E5-9754-0BFF233B1172}.Release|x64.ActiveCfg = Release|x64
 		{B6A7F3A9-F47C-41E5-9754-0BFF233B1172}.Release|x64.Build.0 = Release|x64
 		{B6A7F3A9-F47C-41E5-9754-0BFF233B1172}.Release|x86.ActiveCfg = Release|x86
 		{B6A7F3A9-F47C-41E5-9754-0BFF233B1172}.Release|x86.Build.0 = Release|x86
-		{58C106FE-C159-46D3-97E1-73AB83232670}.Debug|x64.ActiveCfg = Debug|x64
-		{58C106FE-C159-46D3-97E1-73AB83232670}.Debug|x64.Build.0 = Debug|x64
-		{58C106FE-C159-46D3-97E1-73AB83232670}.Debug|x86.ActiveCfg = Debug|x86
-		{58C106FE-C159-46D3-97E1-73AB83232670}.Debug|x86.Build.0 = Debug|x86
-		{58C106FE-C159-46D3-97E1-73AB83232670}.Release|x64.ActiveCfg = Release|x64
-		{58C106FE-C159-46D3-97E1-73AB83232670}.Release|x64.Build.0 = Release|x64
-		{58C106FE-C159-46D3-97E1-73AB83232670}.Release|x86.ActiveCfg = Release|x86
-		{58C106FE-C159-46D3-97E1-73AB83232670}.Release|x86.Build.0 = Release|x86
+		{8513978A-4599-4E55-857A-199F7C533186}.Debug|arm64.ActiveCfg = Debug|arm64
 		{8513978A-4599-4E55-857A-199F7C533186}.Debug|x64.ActiveCfg = Debug|x64
 		{8513978A-4599-4E55-857A-199F7C533186}.Debug|x64.Build.0 = Debug|x64
 		{8513978A-4599-4E55-857A-199F7C533186}.Debug|x86.ActiveCfg = Debug|x86
 		{8513978A-4599-4E55-857A-199F7C533186}.Debug|x86.Build.0 = Debug|x86
+		{8513978A-4599-4E55-857A-199F7C533186}.Release|arm64.ActiveCfg = Release|arm64
 		{8513978A-4599-4E55-857A-199F7C533186}.Release|x64.ActiveCfg = Release|x64
 		{8513978A-4599-4E55-857A-199F7C533186}.Release|x64.Build.0 = Release|x64
 		{8513978A-4599-4E55-857A-199F7C533186}.Release|x86.ActiveCfg = Release|x86
 		{8513978A-4599-4E55-857A-199F7C533186}.Release|x86.Build.0 = Release|x86
+		{58C106FE-C159-46D3-97E1-73AB83232670}.Debug|arm64.ActiveCfg = Debug|arm64
+		{58C106FE-C159-46D3-97E1-73AB83232670}.Debug|arm64.Build.0 = Debug|arm64
+		{58C106FE-C159-46D3-97E1-73AB83232670}.Debug|x64.ActiveCfg = Debug|x64
+		{58C106FE-C159-46D3-97E1-73AB83232670}.Debug|x64.Build.0 = Debug|x64
+		{58C106FE-C159-46D3-97E1-73AB83232670}.Debug|x86.ActiveCfg = Debug|x86
+		{58C106FE-C159-46D3-97E1-73AB83232670}.Debug|x86.Build.0 = Debug|x86
+		{58C106FE-C159-46D3-97E1-73AB83232670}.Release|arm64.ActiveCfg = Release|arm64
+		{58C106FE-C159-46D3-97E1-73AB83232670}.Release|arm64.Build.0 = Release|arm64
+		{58C106FE-C159-46D3-97E1-73AB83232670}.Release|x64.ActiveCfg = Release|x64
+		{58C106FE-C159-46D3-97E1-73AB83232670}.Release|x64.Build.0 = Release|x64
+		{58C106FE-C159-46D3-97E1-73AB83232670}.Release|x86.ActiveCfg = Release|x86
+		{58C106FE-C159-46D3-97E1-73AB83232670}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
